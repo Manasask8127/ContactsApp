@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical"
+    android:id="@+id/relative_layout"
+    android:divider="?android:dividerHorizontal"
+    android:showDividers="middle">
+
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/contact_image"
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:src="@drawable/cp"/>
+
+
+    <LinearLayout
+        android:layout_width="282dp"
+        android:layout_height="53dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="79dp"
+        android:layout_toRightOf="@+id/contact_image"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/contact_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Name"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_contact_phone_number"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Phone Number"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <CheckBox
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/checkbox"
+    android:layout_alignParentRight="true"
+    android:layout_marginTop="25dp" />
+
+
+
+
+</RelativeLayout>

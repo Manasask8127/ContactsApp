@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.manasask.contactappdemo.ContactHomeActivity">
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search"
+        android:title="Search"
+        app:showAsAction="ifRoom|collapseActionView"
+       app:actionViewClass="android.support.v7.widget.SearchView"/>
+    <item
+        android:id="@+id/settings"
+        android:title="settings"
+        android:icon="@drawable/ic_settings"
+        app:showAsAction="never">
+        <menu >
+            <item android:id="@+id/sort"
+                android:title="Sort"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menus"
+        android:title="menus"
+        android:icon="@drawable/ic_more_vert"
+        app:showAsAction="ifRoom">
+        <item
+            android:id="@+id/imports"
+            android:title="import"
+            app:showAsAction="never"/>
+        <item
+            android:id="@+id/exports"
+            android:title="export"
+            app:showAsAction="never"/>
+        <item
+            android:id="@+id/groups"
+            android:title="Groups"
+            app:showAsAction="never"/>
+    </item>
+
+
+</menu>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/normal_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="?attr/colorPrimary">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_title"
+            android:textStyle="bold"
+            android:text="Contacts"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            />
+
+        <!-- <ImageView
+             android:id="@+id/deletebox"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="260dp"
+             android:src="@drawable/ic_delete"
+             android:visibility="visible" />
+
+
+         <ImageView
+             android:layout_width="30dp"
+             android:layout_height="wrap_content"
+             android:id="@+id/setting"
+             android:src="@drawable/ic_settings"
+             android:layout_marginLeft="310dp"/>-->
+
+
+
+    </RelativeLayout>
+</android.support.v7.widget.Toolbar>

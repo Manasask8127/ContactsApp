@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ContactHomeActivity"
+    tools:showIn="@layout/activity_contact_home">
+    <!--<android.support.design.widget.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tabAtt"
+        android:background="@color/colorPrimary"
+        tools:ignore="MissingConstraints" />-->
+
+<android.support.v7.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/contact_home_recycler_view"
+    android:layout_margin="@dimen/fab_margin"
+    android:scrollbars="vertical"
+    tools:ignore="MissingConstraints">
+
+</android.support.v7.widget.RecyclerView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <item
+            android:id="@+id/send_sms_to_group"
+            android:icon="@drawable/ic_message"
+            android:title="send_sms"
+            app:showAsAction="ifRoom"/>
+        <item
+            android:id="@+id/send_email_to_group"
+            android:icon="@drawable/ic_email"
+            android:title="send_email"
+            app:showAsAction="ifRoom"/>
+</menu>

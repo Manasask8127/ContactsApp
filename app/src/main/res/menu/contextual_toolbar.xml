@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/delete"
+        android:title="delete"
+        android:icon="@drawable/ic_delete"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/share"
+        android:title="share"
+        android:icon="@drawable/ic_share"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/context"
+        android:title="menus"
+        android:icon="@drawable/ic_more_vert"
+        app:showAsAction="ifRoom">
+        <item
+            android:id="@+id/selectall"
+            android:title="select all"
+            app:showAsAction="never"/>
+        <item
+            android:id="@+id/unselectall"
+            android:title="unselect all"
+            app:showAsAction="never"/>
+    </item>
+
+
+
+</menu>
